@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glücksrad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wheel-container">
+            <canvas id="wheelCanvas" width="500" height="500"></canvas>
+            <button id="spinBtn">Drehen!</button>
+        </div>
+        <div class="options-container">
+            <div class="header">
+                <h2>Optionen</h2>
+                <button id="theme-toggle">Toggle Theme</button>
+            </div>
+            <div id="options">
+                <div class="option">
+                    <input type="text" value="Feld 1">
+                    <input type="number" class="probability" value="1" min="1">
+                    <button class="removeOptionBtn">X</button>
+                </div>
+                <div class="option">
+                    <input type="text" value="Feld 2">
+                    <input type="number" class="probability" value="1" min="1">
+                    <button class="removeOptionBtn">X</button>
+                </div>
+                <div class="option">
+                    <input type="text" value="Feld 3">
+                    <input type="number" class="probability" value="1" min="1">
+                    <button class="removeOptionBtn">X</button>
+                </div>
+                <div class="option">
+                    <input type="text" value="Feld 4">
+                    <input type="number" class="probability" value="1" min="1">
+                    <button class="removeOptionBtn">X</button>
+                </div>
+                <div class="option">
+                    <input type="text" value="Feld 5">
+                    <input type="number" class="probability" value="1" min="1">
+                    <button class="removeOptionBtn">X</button>
+                </div>
+                <div class="option">
+                    <input type="text" value="Feld 6">
+                    <input type="number" class="probability" value="1" min="1">
+                    <button class="removeOptionBtn">X</button>
+                </div>
+            </div>
+            <button id="addOptionBtn">Feld hinzufügen</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
